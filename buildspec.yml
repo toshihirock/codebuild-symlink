@@ -7,6 +7,8 @@ phases:
       - pwd
       - ls 
       - cat bb
+      - ln -s aa cb-symlink
+      - cat cb-symlink
   pre_build:
     commands:
       - echo Entered the pre_build phase...
