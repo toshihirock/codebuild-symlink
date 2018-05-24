@@ -6,6 +6,7 @@ phases:
       - echo Entered the install phase...
       - pwd
       - ls 
+      - cat bb
   pre_build:
     commands:
       - echo Entered the pre_build phase...
